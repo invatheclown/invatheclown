@@ -1,0 +1,196 @@
+body{
+	margin: 0;
+	min-width: 960px;
+	font-family: 'Roboto Regular', sans-serif;
+}
+header{
+	background-size: cover;
+	background-position: bottom;
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+    top: 10px;
+
+}
+
+header nav{
+    height: 80px;
+	display: flex;
+	max-width: 1000px;
+
+	/*margin: auto;*/
+	
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	display: inline-block;
+	padding: 10px 30px;
+	border-right: 1px dotted #fff;
+	position: relative;
+	left: 330px;
+}
+header nav ul li a {
+	color: pink;
+	font-size: 20px;
+	text-decoration: none;
+    font-style: normal;
+}
+ a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: lightblue;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+footer img{
+	height: 40px;
+	width: 40px;
+	float: right;
+	padding: 15px 5px;
+	position: relative;
+	bottom: 25px;
+}
+footer{
+	/*width: 1620px;*/
+    width: 960px;
+    /*MARGIN 0 AUTO centers contents*/
+    margin: 0 auto;
+	height: 80px;
+
+
+}
+footer div{
+	/*width: 1400px;*/
+
+}
+
+
+.myLogo{
+    width: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 10px;
+}
+
+.home{
+	background position: center;
+	background-size: cover;
+	background: url(images/farieswheel.png) no-repeat;
+	width: 960px;
+	height: 641px;
+	text-align: center;
+	position: relative;
+	margin: auto;
+
+}
+.about{
+	width: 960px;
+	margin:  auto;
+	height: 422px;
+}
+.about h2{
+	font-size: 40px;
+}
+
+.about nav article{
+	float: left;
+	overflow: hidden;
+	width: 50%;
+}
+.about img{
+	width: 400px;
+}
+.port h1{
+	font-size: 50px;
+}
+.port{
+	margin: auto;
+	width: 960px;
+}
+.port article{
+	overflow: hidden;
+	float: left;
+	width: 33%;
+	margin-left: 2px;
+}
+.port  img{
+	width: 100%;
+}
+.port2{
+	width: 960px;
+	margin: auto;
+}
+.port2 img{
+	    width: 100%;
+    position: relative;
+    bottom: 18px;}
+.Tem{
+	width: 960px;
+	margin:auto;
+	height: 520px;
+}
+.Tem nav{
+	float: left;
+	width: 50%;
+
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background: lightblue;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.lastf{
+	    position: relative;
+    top: 20px;
+}
+
+h3{
+    width: 960px;
+    margin: auto;
+    padding: 20px 0px 20px;
+    font-size: 50px;
+}
+}
+
+
+
